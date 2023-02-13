@@ -1,0 +1,376 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+html, body {
+	scroll-behavior: smooth;
+}
+.title h1{
+	font-family: Aria, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 40px;
+	margin-bottom: 50px;
+	color: #fcfffc;
+}
+.title span {
+	color: #F5B7C7;
+}
+.Text1 span {
+	color:  red;
+}
+.href{
+	font-family: Aria, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 25px;
+	color: #fcfffc;
+	border-left: 2px solid #F5B7C7;
+	padding-left: 5px;
+	transition: all 0.2s ease;
+}
+.href:hover {
+	border-left: 2px solid #F5B7C7;
+	padding-left: 10px;
+	transition: all 0.2s ease;
+}
+.li {
+	margin: 25px 0;
+}
+.menu {
+	padding: 25vh 50px;
+	position: fixed;
+	background: rgba(20, 20, 20, 0.5);
+	height:  100vh;
+	backdrop-filter:  blur(16px);
+	border-right: 7px solid #fcfffc;
+	left: -346px;
+}
+.menu:hover {
+	left: 0;
+	transition: all 0.2s ease;
+}
+.content {
+	widows: 100vh;
+	height: 100vh;
+	overflow: hidden;
+}
+.strela {
+	width: 60px;
+	position:  absolute;
+	top: 5px;
+	left: 5px;
+}
+.btn {
+	display:  flex;
+	justify-content: center;
+	align-items:  center;
+}
+.butt { 
+	text-align:  center;
+	font-size: 40px;
+	font-family: monospace;
+	color: #fff;
+	text-decoration:  none;
+	padding:  20px 70px;
+	background-size: 200%;
+	position: absolute;
+	margin: 0 auto;
+	top: calc(65% - 150px);
+	border: 4px solid;
+	opacity: 1;
+}
+.butt:hover {
+	border: 0;
+	transition: opacity 0.2s ease-out;
+	cursor: pointer;
+}
+.Text1 {
+	font-size: 200%;
+	width: 65%;
+	margin: 0 auto;
+	display: block;
+	color: black;
+	background-color: lightblue;
+	padding: 50px;
+	font-family: arial;
+	max-width: 1025px;
+}
+.slider {
+	width: 65%;
+	height: 70%;
+	background: url(1.jpg);
+	animation: slide 16s infinite;
+	margin: 0 auto;
+	display: block;
+	border: 20px solid lightblue;
+	max-width: 1025px;
+	max-height: 540px;
+}
+@keyframes slide{
+	25%{
+		background: url(2.jpg);
+	}
+	50%{
+		background: url(3.jpg);
+	}
+}
+.div-text1 {
+	scroll-behavior: smooth;
+}
+.div-text2 {
+	scroll-behavior: smooth;
+}
+.div-text3 {
+	scroll-behavior: smooth;
+}
+.wither {
+	display: inline-block;
+	width: 33%;
+	height: 35%;
+	border: 20px solid #8e77a8;
+	border-radius: 30px;
+}
+.ifrit {
+	display: inline-block;
+	width: 33%;
+	height: 35%;
+	border: 20px solid #8e77a8;
+	border-radius: 30px;
+}
+.gast {
+	display: inline-block;
+	width: 33%;
+	height: 35%;
+	border: 20px solid #8e77a8;
+	border-radius: 30px;
+}
+.WIG {
+	justify-content: space-between;
+	margin: 0% 16% 0% 15%;
+	background-color: #8e77a8;
+	border-radius: 15px;
+}
+.Text2 {
+	font-size: 200%;
+	width: 65%;
+	margin: 0 auto;
+	display: block;
+	color: black;
+	background-color: #8e77a8;
+	padding: 50px;
+	font-family: arial;
+	max-width: 1025px;
+}
+.h1Text1 {
+	font-size: 260%;
+	font-family: arial;
+	text-align: center;
+	background-color: lightblue;
+	width: 65%;
+	margin: 0 auto;
+	display: block;
+	border-radius: 10px 10px 0px 0px;
+}
+.h1Text2 {
+	font-size: 260%;
+	font-family: arial;
+	text-align: center;
+	background: linear-gradient(lightblue, #8e77a8);
+	width: 65%;
+	margin: 0 auto;
+	display: block;
+}
+.h1Text3 {
+	font-size: 260%;
+	font-family: arial;
+	text-align: center;
+	background: linear-gradient(#8e77a8, #edb672);
+	width: 65%;
+	margin: 0 auto;
+	display: block;
+}
+.TextWither span {
+	color: #94262c;
+}
+.TextIfrit span {
+	color: #94262c;
+}
+.TextGast span {
+	color: #94262c;
+}
+.TextWither {
+	font-size: 200%;
+	font-family: arial;
+	text-align: center;
+	width: 65%;
+	background-color: #8e77a8;
+	margin: 0 auto;
+	display: block;
+	padding: 30px;
+}
+.TextIfrit {
+	font-size: 200%;
+	font-family: arial;
+	text-align: center;
+	width: 65%;
+	background-color: #8e77a8;
+	margin: 0 auto;
+	display: block;
+	padding: 30px;
+}
+.TextGast {
+	font-size: 200%;
+	font-family: arial;
+	text-align: center;
+	width: 65%;
+	background-color: #8e77a8;
+	margin: 0 auto;
+	display: block;
+	padding: 30px;
+}
+.end {
+	display: inline-block;
+	width: 33%;
+	height: 35%;
+	border: 20px solid #8e77a8;
+	border-radius: 30px;
+}
+.ad {
+	display: inline-block;
+	width: 33%;
+	height: 35%;
+	border: 20px solid #8e77a8;
+	border-radius: 30px;
+}
+.oko {
+	display: inline-block;
+	width: 33%;
+	height: 35%;
+	border: 20px solid #8e77a8;
+	border-radius: 30px;
+}
+.eao {
+    justify-content: space-between;
+	margin: 0% 16% 0% 15%;
+	background-color: #8e77a8;
+	border-radius: 15px;
+}
+.Text2_1 {
+	font-size: 200%;
+	width: 65%;
+	margin: 0 auto;
+	display: block;
+	color: black;
+	background-color: #8e77a8;
+	padding: 50px;
+	font-family: arial;
+	max-width: 1025px;
+}
+.Text3 {
+	font-size: 200%;
+	width: 65%;
+	margin: 0 auto;
+	display: block;
+	color: black;
+	background-color: #edb672;
+	padding: 50px;
+	font-family: arial;
+	max-width: 1025px;
+}
+.pe1 {
+	display: inline-block;
+	width: 33%;
+	height: 35%;
+	border: 20px solid #edb672;
+	border-radius: 30px;
+}
+.pe2 {
+	display: inline-block;
+	width: 33%;
+	height: 35%;
+	border: 20px solid #edb672;
+	border-radius: 30px;
+}
+.pe3 {
+	display: inline-block;
+	width: 33%;
+	height: 35%;
+	border: 20px solid #edb672;
+	border-radius: 30px;
+}
+.PE {
+	justify-content: space-between;
+	margin: 0% 16% 0% 15%;
+	background-color: #edb672;
+	border-radius: 15px;
+}
+.Text3_1 {
+	font-size: 200%;
+	width: 65%;
+	margin: 0 auto;
+	display: block;
+	color: black;
+	background-color: #edb672;
+	padding: 50px;
+	font-family: arial;
+	max-width: 1025px;
+}
+.sp1 {
+	color: #8e9899;
+}
+.sp2 {
+	color:  gold;
+}
+.sp3 {
+	background-color: red;
+	color:  white;
+}
+.sp4 {
+	color:  blue;
+}
+.sp5 {
+	color: red;
+}
+.sp6 {
+	color: #5cf0ff;
+}
+.footT {
+	font-size: 220%;
+	text-align: center;
+	font-family: arial;
+	margin: 3% 0px 0px 0px;
+	padding: 0px;
+}
+footer {
+    position: relative;/*относительное позиционирование*/
+    width: 100%;/*на всю ширину*/
+    padding: 20px 50px;/*поля для контента*/
+    background: #3586ff;/*цвет футера*/
+    display: flex;
+    justify-content: center;/*в центре по горизонтали*/
+    align-items: center;/*в центре по вертикали*/
+    flex-direction: column;
+    margin-top: 10px;/*отступ сверху*/
+}
+.social {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;/*разрешен перенос на новую строку*/
+}
+.social li,{
+    list-style: none;/*удалить черные маркеры*/
+}
+.social li a {
+    font-size: 2em;/*размер иконок*/
+    color: #fff;/*цвет иконок*/
+    margin: 0 10px;
+    display: inline-block;/*отображать как строчно-блочный элемент*/
+    transition: 0.5s;/*плавный переход*/
+}
+.social li a:hover {
+    opacity: 1;
+    color:  red;
+}
